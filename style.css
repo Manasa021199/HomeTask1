@@ -1,0 +1,247 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+hr{
+    width: 90%;
+    background-color:lightgray;
+    margin-left:30px;
+    margin-right: 5px;
+}
+.nav {
+    align-items: center;
+    background-color:#273852;
+    height:100px;
+    display:flex;
+    justify-content: center;
+  }
+.title{
+      border: 2px solid red;
+      background: white;
+      height:60px;
+      text-align: center;
+      font-size:30px;
+      width: 200px;
+      font-weight:bold;
+      padding-top: 10px;
+      padding-left:10px;
+      padding-right:10px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      
+  }
+  .title> p{
+      font-size: 13px;
+      width: 200px;
+      font-weight: bold;
+      margin-bottom: 10px;
+      margin-top:2px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .second{
+   padding-top: 30px;
+   padding-left: 30px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   display: flex;
+   justify-content: space-between;
+   height: 100px;
+  }
+  .select{
+      position:relative;
+      bottom: 20px;
+      width:100px;
+      font-weight:bold;
+      height:20px;
+      padding: 5px;  
+  }
+
+  label{
+      margin-bottom: 20px;
+      display: block;
+      font-weight: bolder;
+      width: 300px;
+
+  }
+
+  #selectsOption {
+      width: 70%;
+      padding: 7px;
+  }
+
+  .head{
+      position:relative;
+      top:10px;
+      font-size: 30px;
+      font-weight: bold;
+      color:#273852;
+      text-align: center;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .subscribe > input{
+      padding: 5px;
+  }
+
+  .subscribe> button{
+    background-color: darkblue;
+    color:white;
+    padding: 7px;
+    border: none;
+    margin-top: -40px;
+  }
+
+  img{
+      background: none;
+      height: 150px;
+      width:150px;
+      border: 1px;
+      margin-top: 25px;
+  }
+
+  .blogrow{
+      margin-top:10px;
+  }
+
+  .rows{
+      display:flex;
+      justify-content: flex-start;
+      margin-left: 50px;
+      margin-top:10px;
+  }
+
+  .blogfirst > h2{
+      margin-top:20px;
+      margin-bottom: 2px;
+      color: #273852;
+  }
+
+  .blogfirst > button{
+      background-color: #d55f44;
+      color: white;
+      border:none;
+      padding: 10px;
+      margin-bottom: 10px;
+      margin-top:8px;
+  }
+
+  .blogfirst > span{
+      margin-top: -50px;
+  }
+
+  .footer{
+      background-color:#273852;
+      justify-content: center;
+      color: white;
+      height: 60px;
+      font-size:18px;
+      align-items: center;
+      display: flex;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+
+  }
+
+  .rows {
+      margin-bottom: 3rem;
+  }
+
+  #showHead {
+      display: none;
+  }
+
+  .appendBtn {
+      display: flex;
+  }
+
+  #emailAddress {
+      padding: 7px;
+      width: 52%;
+  }
+
+  #button {
+      background-color: black;
+      border: none;
+      color: white;
+      width: 7rem;
+  }
+  
+  /*------------Resposive Page ----------*/
+    
+    @media only screen and (max-width: 768px) {
+    
+        .second{
+           
+            
+            height: 30%;
+            /* align-items: center;
+            justify-content: center; */
+            flex-direction: column;
+        }
+        .selects{
+            
+            margin-bottom: 3rem;
+        }
+        select{
+            padding: 11px;
+            width: 27em;
+            border-radius: 2px;
+            border: 1px solid gray;
+        }
+
+        .para {
+            width: 100%;
+        }
+        
+        .subscribe>button{
+            padding: 11px;
+            width: 8em;
+            background-color: black;
+            color: white;
+            border: none;
+        }
+
+        .head{
+            margin-top: 10px;
+           
+        }
+
+        #hideHead {
+            display: none;
+        }
+
+        #showHead {
+            display: block;
+        }
+    
+        .blogRow{
+            margin-top: 30px;
+        }
+    
+        hr{
+            margin-top: 15%;
+        }
+        img{
+            width: 50%;
+            align-self: center;
+        }
+        .rows{
+            flex-direction: column;
+            margin-top: 25px;
+        }
+        .blogfirst{
+         margin-top: 2em;
+        }
+        .blogfirst> div{
+            margin-top: 10px;
+            width: 100%;
+            display: block;
+            font-size: 20px;
+        }
+    
+        .blogfirst>span{
+            display: inline-block;
+            margin-top: 10px;
+           
+        }
+    }
